@@ -1,0 +1,9 @@
+[package]
+name = "convoy-to-athalin-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+glfw = "0.59.0"
+sdl2 = { version = "0.38.0", features = ["mixer"] }
+anyhow = "1.0.98"
